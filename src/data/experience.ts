@@ -7,6 +7,17 @@ import cv from './images/cv.png';
 
 export const EXPERIENCE: Experience[] = [
 {
+role: 'Service Desk Specialist, AI Initiatives',
+org: 'Boston University IS&T',
+time: 'May 2026 - Present',
+points: [
+  'Advise IS&T leadership and the ServiceNow AI lead on service desk AI capability adoption, scoping and demoing features including ticket auto-routing, autonomous resolution, and automated knowledge base generation.',
+  'Driving an adoption campaign across team to improve documentation practices upstream of the model.',
+  'Contributing to ~700 tickets weekly across account, network and software issues while completing an MS in AI.'
+],
+stack: ['Service Now', 'Microsoft Automate']
+},
+{
 role: 'AI Software Engineer',
 org: 'Commonwealth of Massachusetts',
 time: 'Aug 2025 – Oct 2025',
@@ -52,7 +63,7 @@ images: [
 {
 role: 'IT Support Specialist',
 org: 'Boston University IT Help Center',
-time: 'Feb 2024 – Present',
+time: 'Feb 2024 – May 2026',
 points: [
 'In‑person Mac/Windows support; >1000 customers/semester aided.',
 'Increased resolved ticket rate by ~10% since joining.',
