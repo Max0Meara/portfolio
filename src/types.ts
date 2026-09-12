@@ -2,6 +2,7 @@ export type LinkSet = {
 email: string;
 phone: string;
 github: string;
+kaggle: string;
 linkedin: string;
 chess: string;
 goodreads: string;

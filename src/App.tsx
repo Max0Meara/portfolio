@@ -1,8 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, Github, Linkedin, GraduationCap, Calendar, MapPin } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, GraduationCap, MapPin } from 'lucide-react';
 import { FaRegChessKing } from "react-icons/fa6";
 import { IoBookOutline } from "react-icons/io5";
+import { FaKaggle } from "react-icons/fa6";
 import { Button } from 'components/ui/button';
 import { Card, CardHeader, CardContent, CardFooter, CardTitle, CardDescription } from 'components/ui/card';
 import { Badge } from 'components/ui/badge';
@@ -168,6 +169,9 @@ export default function App() {
                     </a>
                     <a className="inline-flex items-center gap-2 hover:underline" href={LINKS.github} target="_blank" rel="noreferrer noopener">
                       <Github className="h-4 w-4" /> GitHub
+                    </a>
+                    <a className="inline-flex items-center gap-2 hover:underline" href={LINKS.kaggle} target="_blank" rel="noreferrer noopener">
+                      <FaKaggle className="h-4 w-4" /> Kaggle
                     </a>
                     <a className="inline-flex items-center gap-2 hover:underline" href={LINKS.linkedin} target="_blank" rel="noreferrer noopener">
                       <Linkedin className="h-4 w-4" /> LinkedIn

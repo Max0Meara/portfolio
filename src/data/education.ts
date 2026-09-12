@@ -45,6 +45,6 @@ gpa: 'NA',
 gradDate: 'May 2028',
 deansList: '',
 coursework: [
-'NA'
+'Data Science Tools and Applications', 'Principles of Machine Learning'
 ],
 };
